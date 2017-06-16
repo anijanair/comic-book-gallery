@@ -24,7 +24,7 @@ namespace ComicBookGallery.Data
                         new Artist() { Name = "Chris Eliopoulos", Role = "Letters"},
                 }
 
-             },
+             }, 
                  new ComicBook()
                 {
                     SeriesTitle = "The Amazing Spider-Man",
@@ -73,5 +73,5 @@ namespace ComicBookGallery.Data
             }
             return comicBookToReturn;
         }
-    }
+    }  
 }
