@@ -62,6 +62,10 @@ namespace ComicBookGallery.Data
 
         };
 
+        public ComicBook[] GetComicsBooks()
+        {
+            return _comicBooks;
+        }
 
         public ComicBook GetComicBook(int id)
         {
